@@ -16,7 +16,7 @@ function scrollFunction() {
     $("nav").css("display","none");
   } else {
   		$("#header-v1").addClass("pos-header");
-     	$("#header-v1").css("background","unset");
+     	$("#header-v1").css("background","#fff");
     	$("nav").css("display","block");
     	$("#header-v1").css("box-shadow","unset");
     

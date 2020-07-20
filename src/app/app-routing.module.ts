@@ -11,6 +11,9 @@ import { AboutComponent } from './website/about/about.component';
 import { ContactComponent } from './website/contact/contact.component';
 import { BlogComponent } from './website/blog/blog.component';
 import { SignUpComponent } from './website/sign-up/sign-up.component';
+import { on } from 'process';
+import { OnlineInvitationsComponent } from './website/online-invitations/online-invitations.component';
+import { ShopLeftSidebarComponent } from './website/shop-left-sidebar/shop-left-sidebar.component';
 
 
 const newLocal = 'checkout ';
@@ -19,6 +22,7 @@ const routes: Routes = [
     path : '', component :  HeaderComponent, children: [
       { path: '', component: HomeComponent} ,
       { path: 'shop-right-sidebar', component: ShopRightSidebarComponent} ,
+      { path: 'shop-left-sidebar', component: ShopLeftSidebarComponent} , 
       { path: 'singel-detail', component: SingelDetailComponent} ,
       { path: 'shopping-card', component: ShoppingCardComponent} ,
       { path: 'order', component: OrderComponent} ,
@@ -26,7 +30,8 @@ const routes: Routes = [
       { path: 'about', component: AboutComponent} ,
       { path: 'blog', component: BlogComponent} ,
       { path: 'contact', component: ContactComponent} ,
-      { path: 'sign-up', component: SignUpComponent} ,
+      { path: 'sign-up', component: SignUpComponent},
+      { path: 'online-invitations', component: OnlineInvitationsComponent} , 
     ]}
 ];
 

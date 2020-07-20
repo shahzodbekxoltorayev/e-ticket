@@ -365,10 +365,10 @@ body {
   .container {
     width: 1380px; } }
 header {
-  padding: 30px 0; }
+  padding: 10px 0; }
   header .menu-main {
     position: relative;
-    padding-top: 20px; }
+    padding-top: 0px; }
     header .menu-main li {
       padding-right: 22px; }
       header .menu-main li:first-child a {
@@ -441,8 +441,10 @@ header {
       header .menu-main li.shop-menu .dropdown-menu {
         border-radius: 0;
         border: 0;
-        left: -100px;
-        top: 70%;
+        left: 0px;
+        width: 100%;
+        position: fixed;
+        top: 104px;
         display: block;
         visibility: hidden;
         opacity: 0;

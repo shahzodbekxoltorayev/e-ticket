@@ -445,7 +445,7 @@ body {
     width: 1380px; } }
 nav {
   padding: 10px 0;
-  border-bottom: 1px solid rgba(136, 136, 136, 0.15); }
+}
   nav #language-figure::before {
     content: "+";
     font-family: poppins;
@@ -513,13 +513,13 @@ nav {
 .menu-main {
   position: relative;
   padding-top: 40px; }
-  .menu-main::before {
+  /* .menu-main::before {
     position: absolute;
     width: 30px;
     height: 2px;
     background-color: black;
     bottom: 8px;
-    left: 15px; }
+    left: 15px; } */
   .menu-main li {
     padding-right: 22px; }
     .menu-main li.menu-home .dropdown-menu {

@@ -17,6 +17,8 @@ import { CheckoutComponent } from './website/checkout/checkout.component';
 import { OrderComponent } from './website/order/order.component';
 import { FAQComponent } from './website/faq/faq.component';
 import { SignUpComponent } from './website/sign-up/sign-up.component';
+import { OnlineInvitationsComponent } from './website/online-invitations/online-invitations.component';
+import { ShopLeftSidebarComponent } from './website/shop-left-sidebar/shop-left-sidebar.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +36,9 @@ import { SignUpComponent } from './website/sign-up/sign-up.component';
     CheckoutComponent,
     OrderComponent,
     FAQComponent,
-    SignUpComponent
+    SignUpComponent,
+    OnlineInvitationsComponent,
+    ShopLeftSidebarComponent
   ],
   imports: [
     BrowserModule,
